@@ -16,6 +16,7 @@ A simple login form built with React.
 - Tailwind CSS
 
 ## How to Run
+insure which file in your code
 ```bash
 npm install
 npm run dev
