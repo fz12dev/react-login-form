@@ -61,7 +61,7 @@ function LoginForm() {
 
         localStorage.setItem("user", JSON.stringify({ username }));
 
-        setIsLoggedIn(true); // 👈 add this
+        setIsLoggedIn(true); 
 
         setUsername("");
         setPassword("");
@@ -145,60 +145,3 @@ function LoginForm() {
 }
 
 export default LoginForm;
-
-// const container = {
-//   height: "100vh",
-//   display: "flex",
-//   justifyContent: "center",
-//   alignItems: "center",
-//   background: "#f5f5f5",
-// };
-
-// const card = {
-//   background: "white",
-//   padding: "30px",
-//   borderRadius: "10px",
-//   width: "300px",
-//   boxShadow: "0 5px 15px rgba(0,0,0,0.1)",
-//   display: "flex",
-//   flexDirection: "column",
-//   gap: "10px",
-// };
-
-// const title = {
-//   textAlign: "center",
-// };
-
-// const input = {
-//   padding: "10px",
-//   borderRadius: "5px",
-//   border: "1px solid #ccc",
-// };
-
-// const button = {
-//   padding: "10px",
-//   border: "none",
-//   background: "#6c63ff",
-//   color: "white",
-//   borderRadius: "5px",
-//   cursor: "pointer",
-// };
-
-// const logoutBtn = {
-//   padding: "10px",
-//   border: "none",
-//   background: "red",
-//   color: "white",
-//   borderRadius: "5px",
-//   cursor: "pointer",
-// };
-
-// const error = {
-//   color: "red",
-//   fontSize: "12px",
-// };
-
-// const messageStyle = {
-//   textAlign: "center",
-//   color: "green",
-// };
